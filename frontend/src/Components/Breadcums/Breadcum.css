@@ -1,0 +1,12 @@
+
+.breadcum{
+   display: flex;
+   margin: 50px 120px;
+   align-items: center;
+   gap: 8px;
+   font-weight: 600;
+   font-size: 15px;
+   color: #5c5252;
+   cursor: pointer;
+   text-transform: capitalize;
+}

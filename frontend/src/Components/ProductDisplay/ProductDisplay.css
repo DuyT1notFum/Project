@@ -1,0 +1,107 @@
+
+.productdisplay{
+    display: flex;
+    margin: 0 130px;
+}
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+    transition: all .3s ease;
+}
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.productdisplay-img-list img{
+    height: 100px;
+    transition: all .3s ease;
+}
+.productdisplay-img-list img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.productdisplay-main-img{
+    width: 360px;
+    height: 447px;
+    transition: all .3s ease;
+}
+.productdisplay-main-img:hover{
+    transform: scale(1.1);
+}
+.productdisplay-right{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+.productdisplay-right-stars{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 15px;
+}
+.productdisplay-right-prices{
+    display: flex;
+    margin: 40px 0;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.productdisplay-right-prices-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productdisplay-right-prices-new{
+    color: #ff4141;
+}
+.productdisplay-right-size h1{
+    margin-top: 30px;
+    color: #332e2e;
+    font-size: 20px;
+    font-weight: 500;
+}
+.productdisplay-right-sizes{
+    display: flex;
+    margin: 25px 0;
+    gap: 20px;
+}
+.productdisplay-right-sizes div{
+    padding: 13px 20px;
+    border: 1px solid #a79d9d;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.productdisplay-right-sizes div:hover{
+    background: #ff4141;
+    color: #fff;
+}
+.productdisplay-right button{
+    padding: 16px 30px;
+    width: 170px;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #ff4141;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-bottom: 10px;
+}
+.productdisplay-right button:hover{
+    transform: scale(1.1);
+}
+.productdisplay-right-category{
+    margin-top: 10px;
+}
+.productdisplay-right-category span{
+    font-weight: 600;
+}
